@@ -1,0 +1,87 @@
+# import random
+# print("1.ROCK")
+# print("2.PAPER")
+# print("3.SCISSORS")
+# player1=int(input("choose the number 1-3:"))
+# if player1==1:
+#     print("player 1 choose rock :")
+# elif player1==2:
+#     print("player 1 choose paper :")
+# elif player1==3:
+#     print("player 1 choose scissors :")
+# player2=random.randint(1,3)
+# if player2 == 1:
+#     print("player 2 choose rock :")
+# elif player2 == 2:
+#     print("player 2 choose paper :")
+# elif player2 == 3:
+#     print("player 2 choose scissors :")
+
+# if player1 ==1 and player2 ==1:
+#     print("no one win...")
+# elif player1 ==1 and player2 ==2:
+#     print("player2 is winner")
+# elif player1 ==1 and player2 ==3:
+#     print("player1 is winner")
+# elif player1 ==2 and player2 ==1:
+#     print("player1 is winnwe")
+# elif player1 ==2 and player2 ==2:
+#     print("no one win")
+# elif player1 ==2 and player2 ==3:
+#     print("player2 is winner")
+# elif player1 ==3 and player2 ==1:
+#     print("player2 is winnwe")
+# elif player1 ==3 and player2 ==2:
+#     print("player1 is winner")
+# elif player1 ==3 and player2 ==3:
+#     print("no one win")
+
+#2nd solution:
+import random
+print("1.ROCK")
+print("2.PAPER")
+print("3.SCISSORS")
+rock = 1
+paper = 2
+scissors = 3
+player1=int(input("choose number 1-3 : "))
+print(player1)
+player2=random.randint(1,3)
+print(player2)
+# if player1==1 and player2==1:
+#     print("no one win...")
+# elif player1==1 and player2 ==2:
+#     print("player2 is winner")
+# elif player1==1 and player2==3:
+#     print("player1 is winner")
+# elif player1 ==2 and player2 ==1:
+#     print("player1 is winnwe")
+# elif player1 ==2 and player2 ==2:
+#     print("no one win")
+# elif player1 ==2 and player2 ==3:
+#     print("player2 is winner")
+# elif player1 ==3 and player2 ==1:
+#     print("player2 is winner")
+# elif player1 ==3 and player2 ==2:
+#     print("player1 is winner")
+# elif player1 ==3 and player2 ==3:
+#     print("no one win")
+
+#3rd solution
+if player1==player2:
+    print("no one win...")
+elif player1==1 and player2 ==2:
+    print("you lose")
+elif player1==1 and player2==3:
+    print("you win")
+elif player1 ==2 and player2 ==1:
+    print("you win")
+elif player1 ==2 and player2 ==3:
+    print("you lose")
+elif player1 ==3 and player2 ==1:
+    print("you lose")
+elif player1 ==3 and player2 ==2:
+    print("you win")
+
+ 
+    
